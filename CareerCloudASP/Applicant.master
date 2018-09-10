@@ -1,0 +1,25 @@
+﻿<%@ Master Language="C#" MasterPageFile="~/CCBase.Master" AutoEventWireup="true" CodeBehind="Applicant.master.cs" Inherits="CareerCloudASP.Applicant1" %>
+<asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
+    <div class="apptopnav">
+  <a class="active" href="ApplicantHome">Home</a>
+  <a href="ApplicantSignIn.aspx">Sign In</a>
+  <a href="ApplicantRegister.aspx">Register</a>
+  <a href="#about">About</a>
+</div>
+    </asp:Content>
+
+    
+<asp:Content ID="Content3" ContentPlaceHolderID="PageHeadingContentPlaceHolder" runat="server">
+    <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+</asp:ContentPlaceHolder>
+</asp:Content>
+
+
+<asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder3" runat="server">
+    <asp:ContentPlaceHolder ID="MContentPlaceHolder" runat="server">
+</asp:ContentPlaceHolder>
+</asp:Content>
+
+
+
+

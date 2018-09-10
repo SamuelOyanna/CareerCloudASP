@@ -1,0 +1,56 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="CCBase.Master.cs" Inherits="CareerCloudASP.Applicant" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+    <link href="style.css" rel="stylesheet" />
+   <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js" type="text/javascript"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+    <title></title>
+    <header>
+        <h3 >Career Cloud Overall Header</h3>
+    </header>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+   
+<body>
+  
+    <form id="form1" runat="server">
+        
+            <asp:ContentPlaceHolder ID="PageHeadingContentPlaceHolder" runat="server">
+            </asp:ContentPlaceHolder>
+        <div id="page-wrap">
+            <div id="sidebar">
+        <asp:ContentPlaceHolder ID="SideNavPlaceHolder" runat="server">
+            </asp:ContentPlaceHolder> 
+                </div>
+        <div>
+            <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+            </asp:ContentPlaceHolder>
+        </div>
+            </div>
+        <div class="shift-small">
+            <asp:ContentPlaceHolder ID="ContentPlaceHolder3" runat="server">
+            </asp:ContentPlaceHolder>
+        </div>
+    </form>
+    <div>
+            <asp:ContentPlaceHolder ID="ContentPlaceHolder2" runat="server">
+            </asp:ContentPlaceHolder>
+        </div>
+
+</body>
+    </html>
+ <!-- Footer -->
+<footer class="page-footer font-small blue">
+
+<h3>© 2018 Copyright: CareerCloud</h3>
+    
+
+</footer>
+<!-- Footer -->
+
